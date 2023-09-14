@@ -1,5 +1,5 @@
 vendor
 
 composer.lock
-App\Config
+Config.php
 
