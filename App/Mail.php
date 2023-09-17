@@ -37,7 +37,7 @@ class Mail
                                    $mail->SMTPSecure = 'tls';
                                    $mail->Port = 587;
                                    
-                                   $mail->setFrom('piotr.wasilewski.programista@gmail.com');
+                                   $mail->setFrom('your-email');
                                    $mail->addAddress($to);
                                    $mail->Subject = $subject;
                                    $mail->Body = $text;
